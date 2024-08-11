@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+pre{
+  background:rgb(249, 251, 229);
+  padding:8px;
+  border-radius: 10px;
+  border: 1px solid rgb(229, 229, 221);
+  margin:8px 0;
+
+}
+code{
+  font-family: 'Fira Code', monospace !important;
+}
+body{
+  background:rgb(217, 241, 250);
+  font-family: 'Roboto',sans-serif;
+  color:rgba(28, 34, 55, 0.808);
+}
+
+a,h1,h2,p,input,textarea{
+  color:rgba(28, 34, 85, 0.808);
+  font-family: 'Roboto',sans-serif;
+  line-height: 1.15;
+}
+@media only screen and (max-width:768px){
+  .code code{
+    font-size:10px;
+    
+  }
+  code{
+    font-size:12px;
+  }
+}
